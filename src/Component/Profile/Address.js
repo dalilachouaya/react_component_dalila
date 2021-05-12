@@ -5,7 +5,7 @@ import {IconContext} from 'react-icons';
 const Address =() => {
     return (
     <IconContext.Provider value ={{color:"blue", size:"1.5em" ,}}>
-        <div className="container">
+        <div className="container" id="contact">
         <div className="row">
             <div className="col">
             <h4> CONTACT ME </h4>

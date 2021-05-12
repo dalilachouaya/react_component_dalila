@@ -1,3 +1,4 @@
+import React from "react"
 import Address from "./Component/Profile/Address";
 import FullName from "./Component/Profile/FullName";
 import ProfilePhoto from "./Component/Profile/ProfilePhoto";
@@ -14,12 +15,12 @@ function App() {
         <br/>
       </header>
       <body>
-        <ProfilePhoto />
+        <div id="dalila"><ProfilePhoto /></div>
         <hr /><br/>
-        <FullName /> 
+        <div id="about"> <FullName /> </div>
       </body>
-      <footer>
-      <Address />
+      <footer id="address">
+      <Address/>
         <Footer />
       </footer>
     </div>

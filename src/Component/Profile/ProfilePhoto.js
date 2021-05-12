@@ -3,7 +3,7 @@ import "./ProfilePhoto.css";
 import {Card,Button} from "react-bootstrap"
 function ProfilePhoto() {
   return (
-    <div className="MyImg">
+    <div className="MyImg" id="about">
       <Card style={{ width: "18rem" ,}}>
         <Card.Img variant="top" src="/Images/photo_dalila.jpg" />
         <Card.Body>
